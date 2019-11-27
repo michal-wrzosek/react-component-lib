@@ -7,11 +7,21 @@ https://medium.com/@xfor/developing-publishing-react-component-library-to-npm-st
 
 ## Installation:
 
-To install all dependencies run `npm run install-all`.
+To install all dependencies run:
+
+```
+npm i
+```
+
+It will install:
+
+- `dependencies` and `devDependencies` from ./package.json
+- `peerDependencies` from ./package.json thanks to `install-peers-cli`
+- `dependencies` and `devDependencies` from ./example/package.json (example `create react app` for testing)
 
 ## Developing your library:
 
-To start developing your library, run `npm run dev`. It will build your library and run example create-react-app where you can test your components. Each time you make changes to your library or example app, app will be reloaded to reflect your changes.
+To start developing your library, run `npm run dev`. It will build your library and run example `create-react-app` where you can test your components. Each time you make changes to your library or example app, app will be reloaded to reflect your changes.
 
 ## Styled-components:
 
