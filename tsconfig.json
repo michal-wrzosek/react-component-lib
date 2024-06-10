@@ -11,7 +11,11 @@
     "noImplicitAny": true,
     "outDir": "./dist",
     "target": "es5",
-    "jsx": "react"
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
