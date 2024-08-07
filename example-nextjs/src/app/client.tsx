@@ -1,7 +1,7 @@
-import React, { VFC } from 'react';
-import styled from 'styled-components';
+'use client';
 
-import { TestComponent } from './reactComponentLib';
+import { TestComponent } from '@/reactComponentLib';
+import styled from 'styled-components';
 
 const StyledDiv = styled.div`
   padding: 10px;
@@ -9,7 +9,7 @@ const StyledDiv = styled.div`
   color: white;
 `;
 
-export const App: VFC = () => (
+export const Client = () => (
   <div>
     <TestComponent text="Styled Component from React library" />
     <StyledDiv>Example App styled component</StyledDiv>

@@ -1,0 +1,29 @@
+{
+  "name": "example-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://michal-wrzosek.github.io/test-react-component-lib",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "styled-components": "^6.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5"
+  }
+}
