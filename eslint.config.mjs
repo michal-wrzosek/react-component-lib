@@ -14,7 +14,7 @@ export default [
     settings: { react: { version: 'detect' } },
   },
   {
-    ignores: ['node_modules', 'dist', '.git', 'dist', 'reactComponentLib'],
+    ignores: ['node_modules', 'dist', '.git', 'dist', 'react-component-lib'],
   },
   eslintPluginPrettierRecommended,
   {

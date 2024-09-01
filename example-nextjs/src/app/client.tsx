@@ -1,6 +1,6 @@
 'use client';
 
-import { TestComponent } from '@/reactComponentLib';
+import { TestComponent } from '@/react-component-lib';
 import styled from 'styled-components';
 
 const StyledDiv = styled.div`

@@ -3,4 +3,4 @@ node_modules
 dist
 .rpt2_cache
 
-example-nextjs/src/reactComponentLib
+example-nextjs/src/react-component-lib

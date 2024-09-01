@@ -16,12 +16,12 @@ npm i
 It will install:
 
 - `dependencies` and `devDependencies` from ./package.json
-- `peerDependencies` from ./package.json thanks to `install-peers-cli`
+- `peerDependencies` from ./package.json thanks to `install-peers`
 - `dependencies` and `devDependencies` from ./example-nextjs/package.json (example `nextjs` app for testing)
 
 ## Developing your library:
 
-To start developing your library, run `npm run dev`. It will build your library and run example `nextjs` where you can test your components. Each time you make changes to your library or example app, app will be reloaded to reflect your changes.
+To start developing your library, run `npm run dev`. It will build your library and run example `nextjs` app where you can test your components. Each time you make changes to your library or example app, app will be reloaded to reflect your changes.
 
 ## Styled-components:
 
