@@ -12,7 +12,7 @@
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
-    "next": "14.2.5",
+    "next": "14.2.10",
     "react": "^18",
     "react-dom": "^18",
     "styled-components": "^6.1.12"
