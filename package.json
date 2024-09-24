@@ -22,7 +22,7 @@
     "globals": "^15.9.0",
     "install-peers": "^1.0.4",
     "prettier": "^3.3.3",
-    "rollup": "^4.20.0",
+    "rollup": "^4.22.4",
     "rollup-preserve-directives": "^1.1.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4",
